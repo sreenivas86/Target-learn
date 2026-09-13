@@ -1,0 +1,21 @@
+ current_database 
+------------------
+ postgres
+(1 row)
+
+ current_database 
+------------------
+ postgres
+(1 row)
+
+ public | students | table | postgres
+
+ current_database 
+------------------
+ learning_db
+(1 row)
+
+ id | name | age 
+----+------+-----
+(0 rows)
+
