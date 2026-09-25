@@ -54,17 +54,15 @@ class MergeSortedArray:
             return None
         last=m+n-1
         l,r=m-1,n-1
-        while l>=0 and r>= 0:
-            if nums1[l] >nums2[r]:
+        while  r>= 0:
+            if l>=0 and nums1[l] >nums2[r]:
                 nums1[last]=nums1[l]
                 l-=1
             else:
                 nums1[last]=nums2[r]
                 r -=1
             last -=1
-        while r>=0:
-            nums1[last] = nums2[r]
-            r-=1
+        
         
         
 
