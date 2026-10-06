@@ -12,6 +12,7 @@ class LongestRepeatingCharacterReplacement:
                     res=max(res,j-i+1)
         return res
 
+
     # method 2: sliding window 1
     def characterReplacements2(self,s:str,k:int)->int:
         res=0
